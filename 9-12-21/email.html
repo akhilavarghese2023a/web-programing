@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form>
+            email :<input type="text" id="text" name="txt1" />
+            <input type="submit" name="validate" value="validate " onclick="validateemail()" />
+
+        </form>
+        <p id ="demo" ></p>
+         <script type="text/javascript" >
+function validateemail()
+{
+    var email=document.getElementById('text1')
+    var filter= " /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" 
+}
+if(!filter.test(email.value))
+{
+    alert("please provide a value email address")
+}
+</script>
+    </body>
+</html>
